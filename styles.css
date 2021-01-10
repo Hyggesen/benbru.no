@@ -1,0 +1,145 @@
+body {
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  background-image: url(/blurry_background.jpg);
+}
+
+img {
+  margin: auto;
+  display: block;
+}
+
+.body-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.body-text p {
+  max-width: 500px;
+  align-self: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.body-text span {
+  color: #80addc;
+  font-weight: 400;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+}
+h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 4em;
+  font-weight: 300;
+  padding-right: 20px;
+}
+
+.percent-flex {
+  display: flex;
+  flex-direction: row;
+  max-width: 500px;
+  justify-content: space-between;
+}
+
+.percent-flex p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.myEducation {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 500px;
+  margin: 50px auto;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+
+.myEducation i {
+  color: #10b395;
+  float: right;
+  margin-left: 5px;
+}
+.dm-space {
+  margin-top: 2em;
+}
+
+.myEducation li {
+  margin: 20px 0;
+}
+
+.bar {
+  background: grey;
+  display: block;
+  height: 8px;
+  border: 1px solid white;
+  overflow: hidden;
+  border-radius: 3px;
+  box-shadow: 0 0 10px#80addc;
+}
+
+.bar span {
+  height: 8px;
+  float: left;
+  background: #80addc;
+}
+
+.frontend {
+  width: 28%;
+}
+
+.dm {
+  width: 100%;
+}
+
+.a-title {
+  text-align: right;
+  margin-right: 10px;
+  color: #80addc;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #80addc;
+  color: white;
+  font-weight: 100;
+  width: 120px;
+  display: block;
+  margin: auto;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #40576e;
+  cursor: pointer;
+}
+
+.social-icons {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 3em;
+  color: white;
+}
+
+.social-icons a {
+  color: white;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+  .body-text span {
+    font-size: 1.2em;
+  }
+}
