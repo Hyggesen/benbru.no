@@ -13,6 +13,9 @@ body {
 img {
   margin: auto;
   display: block;
+}
+
+.profilbilde {
   padding-top: 15px;
 }
 
