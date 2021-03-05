@@ -43,8 +43,7 @@ img {
 }
 h1 {
   color: white;
-  text-transform: uppercase;
-  font-size: 4em;
+  font-size: 2em;
   font-weight: 400;
   padding-right: 20px;
 }
@@ -101,7 +100,7 @@ h1 {
 }
 
 .frontend {
-  width: 28%;
+  width: 35%;
 }
 
 .dm {
